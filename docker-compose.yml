@@ -1,0 +1,138 @@
+version: '3'
+services:
+   jira7.0.0:
+    image: cptactionhank/atlassian-jira:7.0.0
+    ports:
+      - 700:8080
+    volumes:
+      - ./application-data/jira-data7.0.0:/var/atlassian/application-data/jira
+   jira7.1.0:
+    image: cptactionhank/atlassian-jira:7.1.0
+    ports:
+      - 710:8080
+    volumes:
+      - ./application-data/jira-data7.1.0:/var/atlassian/application-data/jira
+   jira7.2.0:
+    image: cptactionhank/atlassian-jira:7.2.0
+    ports:
+      - 720:8080
+    volumes:
+      - ./application-data/jira-data7.2.0:/var/atlassian/application-data/jira
+   jira7.3.0:
+    image: cptactionhank/atlassian-jira:7.3.0
+    ports:
+      - 730:8080
+    volumes:
+      - ./application-data/jira-data7.3.0:/var/atlassian/application-data/jira
+   jira7.4.0:
+    image: cptactionhank/atlassian-jira:7.4.0
+    ports:
+      - 740:8080
+    volumes:
+      - ./application-data/jira-data7.4.0:/var/atlassian/application-data/jira
+   jira7.5.0:
+    image: cptactionhank/atlassian-jira:7.5.0
+    ports:
+      - 750:8080
+    volumes:
+      - ./application-data/jira-data7.5.0:/var/atlassian/application-data/jira
+   jira7.6.0:
+    image: cptactionhank/atlassian-jira:7.6.0
+    ports:
+      - 760:8080
+    volumes:
+      - ./application-data/jira-data7.6.0:/var/atlassian/application-data/jira
+   jira7.7.0:
+    image: cptactionhank/atlassian-jira:7.7.0
+    ports:
+      - 770:8080
+    volumes:
+      - ./application-data/jira-data7.7.0:/var/atlassian/application-data/jira
+   jira7.8.0:
+    image: cptactionhank/atlassian-jira:7.8.0
+    ports:
+      - 780:8080
+    volumes:
+      - ./application-data/jira-data7.8.0:/var/atlassian/application-data/jira
+   jira7.9.0:
+    image: cptactionhank/atlassian-jira:7.9.0
+    ports:
+      - 790:8080
+    volumes:
+      - ./application-data/jira-data7.9.0:/var/atlassian/application-data/jira
+   jira7.10.0:
+    image: cptactionhank/atlassian-jira:7.10.0
+    ports:
+      - 7100:8080
+    volumes:
+      - ./application-data/jira-data7.10.0:/var/atlassian/application-data/jira
+   jira7.11.0:
+    image: cptactionhank/atlassian-jira:7.11.0
+    ports:
+      - 7110:8080
+    volumes:
+      - ./application-data/jira-data7.11.0:/var/atlassian/application-data/jira
+   jira7.12.0:
+    image: cptactionhank/atlassian-jira:7.12.0
+    ports:
+      - 7120:8080
+    volumes:
+      - ./application-data/jira-data7.12.0:/var/atlassian/application-data/jira
+   jira7.13.0:
+    image: cptactionhank/atlassian-jira:7.13.0
+    ports:
+      - 7130:8080
+    volumes:
+      - ./application-data/jira-data7.13.0:/var/atlassian/application-data/jira
+   jira8.0.0:
+    image: atlassian/jira-software:8.0.0
+    ports:
+      - 800:8080
+    volumes:
+      - ./application-data/jira-data8.0.0:/var/atlassian/application-data/jira
+   jira8.1.0:
+    image: atlassian/jira-software:8.1.0
+    ports:
+      - 810:8080
+    volumes:
+      - ./application-data/jira-data8.1.0:/var/atlassian/application-data/jira
+   jira8.2.0:
+    image: atlassian/jira-software:8.2.0
+    ports:
+      - 820:8080
+    volumes:
+      - ./application-data/jira-data8.2.0:/var/atlassian/application-data/jira
+   jira8.3.0:
+    image: atlassian/jira-software:8.3.0
+    ports:
+      - 830:8080
+    volumes:
+      - ./application-data/jira-data8.3.0:/var/atlassian/application-data/jira
+   jira8.4.0:
+    image: atlassian/jira-software:8.4.0
+    ports:
+      - 840:8080
+    volumes:
+      - ./application-data/jira-data8.4.0:/var/atlassian/application-data/jira
+   jira8.5.0:
+    image: atlassian/jira-software:8.5.0
+    ports:
+      - 850:8080
+    volumes:
+      - ./application-data/jira-data8.5.0:/var/atlassian/application-data/jira
+   jira8.6.0:
+    image: atlassian/jira-software:8.6.0
+    ports:
+      - 860:8080
+    volumes:
+      - ./application-data/jira-data8.6.0:/var/atlassian/application-data/jira
+   jira8.7.0:
+    image: atlassian/jira-software:8.7.0
+    ports:
+      - 870:8080
+    volumes:
+      - ./application-data/jira-data8.7.0:/var/atlassian/application-data/jira
+   
+
+
+    
